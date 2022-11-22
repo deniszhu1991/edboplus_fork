@@ -22,7 +22,7 @@ from botorch.acquisition.multi_objective.monte_carlo import \
 
 from pathlib import Path
 from botorch.sampling.samplers import SobolQMCNormalSampler, IIDNormalSampler
-from edbo.plus.utils import EDBOStandardScaler
+from edbojz.plus.utils import EDBOStandardScaler
 
 tkwargs = {
     "dtype": torch.double,
